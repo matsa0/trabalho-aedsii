@@ -1,0 +1,208 @@
+# depslib dependency file v1.0
+1700085514 source:g:\aeds ii\tp01_aedsii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"shuffle.c"
+	"playlist.c"
+	"usuario.c"
+	"reviews.c"
+	"musicas.c"
+
+1700085654 g:\aeds ii\tp01_aedsii\playlist.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<time.h>
+	"playlist.h"
+	"shuffle.h"
+
+1700058408 g:\aeds ii\tp01_aedsii\playlist.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1699981434 g:\aeds ii\tp01_aedsii\shuffle.c
+	<stdio.h>
+	<stdlib.h>
+	"shuffle.h"
+
+1699981433 g:\aeds ii\tp01_aedsii\shuffle.h
+	<stdio.h>
+	<stdlib.h>
+
+1700085654 g:\aeds ii\tp01_aedsii\musicas.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"musicas.h"
+	"shuffle.h"
+
+1700084385 g:\aeds ii\tp01_aedsii\musicas.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700085654 g:\aeds ii\tp01_aedsii\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"usuario.h"
+
+1700084931 g:\aeds ii\tp01_aedsii\reviews.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700085141 g:\aeds ii\tp01_aedsii\usuario.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700085654 g:\aeds ii\tp01_aedsii\reviews.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"reviews.h"
+	"shuffle.h"
+
+1700286328 source:d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"shuffle.c"
+	"playlist.c"
+	"usuario.c"
+	"reviews.c"
+	"musicas.c"
+
+1699981434 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\shuffle.c
+	<stdio.h>
+	<stdlib.h>
+	"shuffle.h"
+
+1699981433 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\shuffle.h
+	<stdio.h>
+	<stdlib.h>
+
+1700085654 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\playlist.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<time.h>
+	"playlist.h"
+	"shuffle.h"
+
+1700058408 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\playlist.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700284911 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"usuario.h"
+
+1700085141 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\usuario.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700085654 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\reviews.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"reviews.h"
+	"shuffle.h"
+
+1700084931 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\reviews.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700085654 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\musicas.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"musicas.h"
+	"shuffle.h"
+
+1700084385 d:\ufop\aeds ii\trabalho\tp01_aedsii\tp01_aedsii\musicas.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700316631 source:c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"shuffle.c"
+	"playlist.c"
+	"usuario.c"
+	"reviews.c"
+	"musicas.c"
+
+1699981434 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\shuffle.c
+	<stdio.h>
+	<stdlib.h>
+	"shuffle.h"
+
+1699981433 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\shuffle.h
+	<stdio.h>
+	<stdlib.h>
+
+1700085654 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\playlist.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<time.h>
+	"playlist.h"
+	"shuffle.h"
+
+1700058408 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\playlist.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700316833 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"usuario.h"
+
+1700085141 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\usuario.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700316836 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\reviews.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"reviews.h"
+	"shuffle.h"
+
+1700084931 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\reviews.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1700085654 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\musicas.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"musicas.h"
+	"shuffle.h"
+
+1700084385 c:\users\matheus\downloads\tp01_aedsii\tp01_aedsii\musicas.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -4,7 +4,7 @@
 #include <stdarg.h>
 #include "usuario.h"
 
-//Retorna o tamnanho da review em bytes
+//Retorna o tamnanho do usuario em bytes
 int tamanhoRegistroUsuario() {
     return sizeof(int) +
            sizeof(char) * 30 +
@@ -16,7 +16,7 @@ TUsuario *usuario(int id, char *senha, char *nome) {
     TUsuario *usuario = (TUsuario *)malloc(sizeof(TUsuario));
     if (usuario) memset(usuario, 0, sizeof(TUsuario));
 
-    usuario->id;
+    usuario->id = id;
     sprintf(usuario->user, "user%d", id);
     strcpy(usuario->senha, senha);
     strcpy(usuario->nome, nome);
@@ -25,11 +25,6 @@ TUsuario *usuario(int id, char *senha, char *nome) {
 
 TUsuario *leUsuario(FILE* in) {
     TUsuario *usuario = (TUsuario *)malloc(sizeof(TUsuario));
-    if (!usuario) {
-        printf("Erro ao alocar memoria para usuario.\n");
-        return NULL;
-    }
-
     if (0 >= fread(&usuario->id, sizeof(int), 1, in)) {
         free(usuario);
         return NULL;
@@ -57,7 +52,7 @@ void criarBaseDesordenadaUsuario(FILE *out, int tam) {
 
     shuffle(vet, tam, 0);
 
-    printf("\n\nGerando a base de dados USUARIO...\n");
+    printf("\n\nGerando a base de dados DESORDENADA de USUARIOS...\n");
 
     for (int i=0;i<tam;i++){
         user = usuario(vet[i], "12345678", "Jubileu");
@@ -74,7 +69,7 @@ void criarBaseOrdenadaUsuario(FILE *out, int tam) {
     for(int i=0;i<tam;i++)
         vet[i] = i+1;
 
-    printf("\n\nGerando a base de dados USUARIO...\n");
+    printf("\n\nGerando a base de dados ORDENADA de USUARIO...\n");
 
     for (int i=0;i<tam;i++){
         user = usuario(vet[i], "12345678", "Jubileu");
@@ -139,8 +134,6 @@ TUsuario *buscaSequencialUsuario(int chave, FILE *in, FILE* out) {
         printf("ERRO! USUARIO nao encontrado.");
         logBuscaSequencialUsuario(out, count, start_time);
     }
-
-
     free(usuario);
     return NULL;
 }

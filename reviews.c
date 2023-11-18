@@ -130,7 +130,7 @@ TReviews *buscaSequencialReviews(int chave, FILE *in, FILE* out) {
         return playlist;
     }
     else {
-        printf("ERRO! REVIEW nao encontradO.");
+        printf("ERRO! REVIEW nao encontrado.");
         logBuscaSequencialReviews(out, count, start_time);
     }
 
